@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wm5sh3');
+  src:  url('../fonts/icomoon.eot?wm5sh3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wm5sh3') format('truetype'),
+    url('../fonts/icomoon.woff?wm5sh3') format('woff'),
+    url('../fonts/icomoon.svg?wm5sh3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-playstation:before {
+  content: "\e900";
+  color: #003791;
+}
+.icon-playstation4:before {
+  content: "\e901";
+  color: #003791;
+}
+.icon-whatsapp:before {
+  content: "\e902";
+  color: #25d366;
+}
+.icon-xiaomi:before {
+  content: "\e903";
+  color: #fa6709;
+}
